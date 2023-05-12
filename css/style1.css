@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+}
+
+
+.bgimg{
+    background-image: url(depositphotos_165492308-stock-photo-sportsman-lifting-barbell.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 836px;
+}
+
+.logo{
+    border:1px solid white;
+    float: left;
+    width: 5%;
+    height: 5%;
+    margin:15px;
+    color:white;
+    padding-top: 0px;
+}
+
+.heading{
+    margin-top: 0%;
+    float:left;
+    color:whitesmoke;
+    font-size: xx-large;
+    padding-top:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.navbar ul{
+    margin-top:0px;
+    float: right;
+}
+
+
+.navbar li{
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+    padding-top:15px;
+
+
+}
+
+.navbar li a{
+
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 25px;
+    padding-right: 50px;
+    padding-left: 30px;
+
+    color:white;
+
+}
+
+.navbar li a:hover{
+    color:#130f40;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 30%;
+    clear: both;
+    font-size: 50px;
+}
+
+.container{
+    background-color: rgb(59 130 246 / 0.5);
+    background-image: url(depositphotos_169181340-stock-photo-sportswoman-lifting-barbell.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 836px;
+}

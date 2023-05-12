@@ -1,0 +1,148 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    background-image:url(/images/photo-1605296867304-46d5465a13f1.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* height: 100px; */
+
+}
+
+.left{
+    /* border:2px solid red; */
+    display: inline-block;
+
+    position: absolute;
+    left:34px;
+    top:10px;
+    /* float:left; */
+}
+
+.left div{
+    text-align: center;
+    /* line-height: 30px; */
+    font-size: 20px;
+    
+}
+
+.left img{
+    width: 80px;
+    padding-left: 18px;
+    /* filter:invert(100%); */
+}
+
+.mid{
+    /* border:2px solid green; */
+
+    display:block;
+    width: 49%;
+    margin: 20px auto; /*This 3 should go hand in hand*/
+
+    /* display: inline-block;
+    position: absolute;
+    left:50%; */
+
+    
+
+}
+
+.right{
+    /* border:2px solid rgb(0, 38, 255); */
+    /* float: right; */
+    
+    position: absolute;
+    right:34px;
+    top:40px;
+    display: inline-block;
+
+
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding:34px 23px;
+}
+
+.navbar li a:hover, .navbar li a.active
+{
+    text-decoration: underline;
+    color:#fc4503;
+
+    /* padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: fit-content; */
+
+
+} 
+
+/* ANother way to do this is float and flexbox*/
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 9px;
+    color:white;
+    background-color:black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor:pointer;
+
+}
+
+.btn:hover{
+    background-color:grey;
+}
+
+.container{
+    border: 2px solid white;
+    margin: 100px;
+    padding: 60px;
+    width:33%;
+    border-radius: 30px;
+
+
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width:450px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 15px auto;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* display: block;
+width:;
+margin: auto; */
+
+.container h1{
+    text-align: center;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.container button{
+    display: block;
+    width: 25%;
+    margin: 40px auto;
+}
